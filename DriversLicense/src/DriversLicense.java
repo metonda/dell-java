@@ -18,8 +18,8 @@ public class DriversLicense {
 	public String firstName;
 	public String lastName;
 	public String gender;
-	public int heightFt;
-	public int heightIn;
+	public String heightFt;
+	public String heightIn;
 	public String dateOfBirth;
 	public String fullName;
 	public String age;
@@ -53,17 +53,17 @@ public class DriversLicense {
 		this.gender = gender;
 	}
 	
-	public int getHeightFt() {
+	public String getHeightFt() {
 		return heightFt;
 	}
-	public void setHeightFt(int heightFt) {
+	public void setHeightFt(String heightFt) {
 		this.heightFt = heightFt;
 	}
 	
-	public int getHeightIn() {
+	public String getHeightIn() {
 		return heightIn;
 	}
-	public void setHeightIn(int heightIn) {
+	public void setHeightIn(String heightIn) {
 		this.heightIn = heightIn;
 	}
 	
