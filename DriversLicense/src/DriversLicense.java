@@ -1,4 +1,5 @@
 import java.time.*;
+import java.util.Date;
 
 class Main {
 	  public static void main(String[] args) {
@@ -20,7 +21,7 @@ public class DriversLicense {
 	public String gender;
 	public String heightFt;
 	public String heightIn;
-	public String dateOfBirth;
+	public LocalDate dateOfBirth;
 	public String fullName;
 	public String age;
 	
@@ -67,10 +68,10 @@ public class DriversLicense {
 		this.heightIn = heightIn;
 	}
 	
-	public String getDateOfBirth() {
+	public LocalDate getDateOfBirth() {
 		return dateOfBirth;
 	}
-	public void setDateOfBirth(String dateOfBirth) {
+	public void setDateOfBirth(LocalDate dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}
 
